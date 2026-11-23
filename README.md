@@ -1,5 +1,7 @@
 # Springer's 1951 conjecture on inverse coefficients of meromorphic univalent functions
 
+The paper: https://doi.org/10.5281/zenodo.24458897
+
 What is in this repository:
 
 - [lean/](lean/) - the Lean 4 formalization of the paper's three main theorems. Its README says what is proved, what it takes as given, and how to verify it.
