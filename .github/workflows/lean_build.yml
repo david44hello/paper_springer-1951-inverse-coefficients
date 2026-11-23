@@ -46,7 +46,7 @@ jobs:
       - name: Swap space (a heavy proof can need more memory than this machine has)
         # Without it, a run can die mid-build with "shutdown signal" (exit 143): out of memory on the small machine
         # GitHub gives private repositories.
-        # 10 GB: the setting of the other paper builds; the peak memory of one Lean process in this build is not measured yet.
+        # 10 GB: the setting of the other paper builds. With Mathlib cached, the largest Lean compiler process in a clean build of the 67 project modules reached 6.63 GiB RSS.
         # The swap file goes on the second disk at /mnt when it has room (then it takes no space from the build),
         # else on the disk freed above.
         run: |

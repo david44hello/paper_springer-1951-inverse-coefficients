@@ -1,5 +1,5 @@
 -- Review of the main statements for Springer's inverse-coefficient conjecture.
--- Version 1.00. Independent type checks for the three printed main theorems.
+-- Independent type checks for the three printed main theorems.
 import Springer.OddTheorems
 import Springer.EvenTheorem
 
