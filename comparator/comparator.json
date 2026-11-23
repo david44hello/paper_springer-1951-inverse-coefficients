@@ -1,0 +1,30 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Springer",
+  "theorem_names": [
+    "Springer.odd_theorem_of_loewner_and_area",
+    "Springer.catalan_factorial_real",
+    "Springer.disk_theorem_of_loewner",
+    "Springer.even_order_counterexamples",
+    "Springer.even_four",
+    "Springer.even_family",
+    "Springer.actual_coefficient_flow",
+    "Springer.omitted_disk_improvement_of_loewner",
+    "Springer.actual_exterior_family",
+    "Springer.comparison_of_flow",
+    "Springer.chord_integral",
+    "Springer.modelU_ofReal",
+    "Springer.modelV_ofReal",
+    "Springer.herglotz_representation",
+    "Springer.loewner_trajectory_unique",
+    "Springer.inverse_germ",
+    "Springer.odd_numerical_of_loewner",
+    "Springer.CoefficientFlow.first_norm_le"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}
